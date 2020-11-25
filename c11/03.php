@@ -13,7 +13,7 @@ class A {
     //设置私有的属性时，自动的调用。
     public function __set($name, $value)
     {
-//        $this->$name = $value;
+//       echo $this->$name = $value;
     }
 }
 
